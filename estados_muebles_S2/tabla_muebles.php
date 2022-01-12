@@ -31,17 +31,9 @@
 						<hr>
 						<div class="row">
 							<div class="col-sm-12">
-									<div id="tablaDatos">  </div>									
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+									<div id="tablaDatos">
 
-
-	<table class="table">
+										<table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -70,6 +62,18 @@
     </tr>
   </tbody>
 </table>
+
+									</div>									
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 
 
 
