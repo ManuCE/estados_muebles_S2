@@ -56,5 +56,10 @@
 		mostrarU();
 	</script>
 
+	<nav class="navbar navbar-dark bg-dark">
+		<!-- Navbar content -->
+		<a class="btn btn-primary" href="index.php" role="button"> MENU </a>
+	</nav>
+
 </body>
 </html>
