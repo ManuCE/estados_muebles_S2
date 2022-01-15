@@ -1,9 +1,11 @@
 <?php 
-	class Conexion{
+	class Conexion extends SQLite3	{
 		public function conectar(){
-			$conexion= new PDO("mysql:host=localhost;dbname=estados_de_muebles","userdb", "123456");
+			$this->open('estado_mueble.db');
 			return $conexion;
 		}
 	}
+
+	
 
 ?>
