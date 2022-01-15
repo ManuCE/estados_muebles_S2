@@ -1,11 +1,9 @@
 <?php 
-	class Conexion extends SQLite3	{
+	class Conexion{
 		public function conectar(){
-			$this->open('estado_mueble.db');
+			$conexion= new PDO("sqlite:estados_muebles_S2/estado_mueble.db");
 			return $conexion;
 		}
 	}
-
-	
 
 ?>
